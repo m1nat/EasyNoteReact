@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: rgb(95, 39, 39);
+  background: url('https://papers.co/wallpaper/papers.co-vq79-galaxy-note-7-art-official-background-green-pattern-25-wallpaper.jpg') no-repeat, center, center;
+  background-size: cover;
+}
