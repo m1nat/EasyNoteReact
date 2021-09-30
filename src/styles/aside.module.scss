@@ -1,5 +1,103 @@
 .aside {
-  width: 25%;
+  width: 20%;
   height: 100%;
   background-color: rgba(131,134,134,0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  .aside__userinfo {
+    width: 100%;
+    height: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .username {
+      width: 100%;
+      text-align: left;
+      padding: 5px;
+      font-size: 1.2em;
+      font-weight: bold;
+      color: rgb(99, 93, 93);
+    }
+
+    .useremail {
+      width: 100%;
+      text-align: left;
+      padding: 5px;
+      font-size: 1.2em;
+      font-weight: bold;
+      color: rgb(99, 93, 93);
+    }
+  }
+
+  &__menu {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+    .todolist {
+      width: 80%;
+      height: 35px;
+      padding-top: 6px;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      padding-left: 10px;
+      font-weight: bolder;
+      color: #d89688;
+      background-color: rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+    }
+
+    .favorites {
+      width: 80%;
+      height: 35px;
+      padding-top: 6px;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      padding-left: 10px;
+      font-weight: bolder;
+      color: #d89688;
+      background: url('../assetes/star-4-48.png') no-repeat center right;
+      background-color: rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      background-size: 7%;
+
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+    }
+
+    .completeted {
+      width: 80%;
+      height: 35px;
+      padding-top: 6px;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      padding-left: 10px;
+      font-weight: bolder;
+      color: #d89688;
+      background-color: rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+    }
+  }
 }
