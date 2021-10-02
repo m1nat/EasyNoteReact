@@ -1,0 +1,20 @@
+.createBoard {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  &__button {
+    width: 140px;
+    height: 140px;
+    background:  url('../assetes/notes.png') no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+  }
+
+  &__createdBoards {
+    width: 1200px;
+    height: 310px;
+  }
+}

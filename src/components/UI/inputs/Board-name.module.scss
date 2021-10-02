@@ -1,0 +1,20 @@
+.bordname {
+  height: 100%;
+  width: 50%;
+  padding-left: 10px;
+  font-family: cursive;
+  font-style: italic;
+  font-size: 1.3em;
+  outline: none;
+  border: dashed 1px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  text-align: center;
+
+  &::placeholder {
+    font-family: cursive;
+    font-size: 1.3em;
+    padding-left: 15px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,175 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .aside {
+    width: 20%;
+    height: 100%;
+    background-color: rgba(131, 134, 134, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    .aside__userinfo {
+      width: 100%;
+      height: 6%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 5px;
+
+      .username {
+        width: 100%;
+        text-align: left;
+        padding: 5px;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: rgb(99, 93, 93);
+      }
+
+      .useremail {
+        width: 100%;
+        text-align: left;
+        padding: 5px;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: rgb(99, 93, 93);
+      }
+    }
+
+    .menu {
+      width: 100%;
+      height: 22%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 50px;
+
+      &__addNote {
+        width: 80%;
+        height: 35px;
+        padding-top: 6px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding-left: 10px;
+        font-weight: bolder;
+        color: #d89688;
+        background-color: rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.3);
+        }
+      }
+
+      &__color {
+        width: 80%;
+        height: 35px;
+        padding-top: 6px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding-left: 10px;
+        font-weight: bolder;
+        color: #d89688;
+        background-color: rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.3);
+        }
+      }
+
+      &__images {
+        width: 80%;
+        height: 35px;
+        padding-top: 6px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding-left: 10px;
+        font-weight: bolder;
+        color: #d89688;
+        background-color: rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.3);
+        }
+      }
+
+      &__favorites {
+        width: 80%;
+        height: 35px;
+        padding-top: 6px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding-left: 10px;
+        font-weight: bolder;
+        color: #d89688;
+        background-color: rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.3);
+        }
+      }
+
+      &__important {
+        width: 80%;
+        height: 35px;
+        padding-top: 6px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding-left: 10px;
+        font-weight: bolder;
+        color: #d89688;
+        background-color: rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.3);
+        }
+      }
+    }
+  }
+
+  .plate {
+    width: 80%;
+    height: 100%;
+    background-color: rgba(131, 134, 134, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__board {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      background: url("../assetes/Slimline-01-e1502358454999.png")
+        no-repeat center center;
+      background-size: 100% 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .boardname {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}
